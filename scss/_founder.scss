@@ -1,0 +1,80 @@
+.founder{
+    margin: 50px 0;
+    .title{
+        text-align: center;
+    }
+    .founder-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .fouder-items-left{
+            display: flex;
+            flex-direction: column;
+            margin-right: 25px;
+            text-align: right;
+            .founder-item{
+                display: flex;
+                align-items: flex-end;
+                margin-bottom: 25px;
+                .subtitle{
+                    margin-bottom: 10px;
+                }
+                .description{
+                    margin: 0;
+                    padding-bottom: 40px;
+                }
+                .top-left {
+                    max-width: 262px;
+                    max-height: 358px;
+                    width: 100%;
+                    height: auto;
+                    border-top-left-radius: 100px;
+                    margin-left: 10px;
+                }
+                .bottom-left {
+                    max-width: 263px;
+                    max-height: 358px;
+                    width: 100%;
+                    height: auto;
+                    border-bottom-left-radius: 100px;
+                    margin-left: 10px;
+                }
+            }
+        }
+        .fouder-items-right{
+            display: flex;
+            flex-direction: column;
+            margin-top: 65px;
+            text-align: left;
+            .subtitle {
+                margin-bottom: 10px;
+            }
+
+            .description {
+                margin: 0;
+                padding-bottom: 40px;
+            }
+            .founder-item {
+                display: flex;
+                align-items: flex-end;
+                margin-bottom: 25px;
+                .top-right {
+                    max-width: 265px;
+                    max-height: 358px;
+                    width: 100%;
+                    height: auto;
+                    border-top-right-radius: 100px;
+                    margin-right: 10px;
+                }
+                .bottom-right {
+                    max-width: 263px;
+                    max-height: 358px;
+                    width: 100%;
+                    height: auto;
+                    border-bottom-right-radius: 100px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
