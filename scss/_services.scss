@@ -32,21 +32,22 @@
             img{
                 margin-bottom: 50px;
             }
-            .services-link{
-                font-weight: normal;
-                font-size: 14px;
-                line-height: 20px;
-                font-feature-settings: 'salt'on,
-                'liga'off;
-                color: #A1C5E9;
-                text-decoration: none;
-                display: flex;
-                align-items: center;
-                span{
-                    margin-right: 20px;
-                }
-            }
         }
     }
 
+}
+.services-link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    font-feature-settings: 'salt'on,
+        'liga'off;
+    color: #A1C5E9;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    span {
+        margin-right: 20px;
+    }
 }

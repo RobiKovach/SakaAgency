@@ -266,7 +266,7 @@ body {
   margin-bottom: 50px;
 }
 
-.services .services-items .services-item .services-link {
+.services-link {
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
@@ -282,6 +282,6 @@ body {
           align-items: center;
 }
 
-.services .services-items .services-item .services-link span {
+.services-link span {
   margin-right: 20px;
 }
