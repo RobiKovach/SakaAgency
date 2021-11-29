@@ -200,3 +200,88 @@ body {
   text-transform: capitalize;
   color: #FFFFFF;
 }
+
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.services .title {
+  text-align: center;
+}
+
+.services .services-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services .services-items .services-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 28%;
+  padding: 20px 20px;
+  background: #1E2028;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.services .services-items .services-item .subtitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.services .services-items .services-item .description {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.services .services-items .services-item img {
+  margin-bottom: 50px;
+}
+
+.services .services-items .services-item .services-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  -webkit-font-feature-settings: "salt" on, "liga" off;
+          font-feature-settings: "salt" on, "liga" off;
+  color: #A1C5E9;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services .services-items .services-item .services-link span {
+  margin-right: 20px;
+}
