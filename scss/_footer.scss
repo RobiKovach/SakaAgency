@@ -1,0 +1,80 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0 30px 0;
+    .footer_items{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        .footer_description{
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 26px;
+            color: #FFFFFF;
+        }
+        .footer_social{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .footer_social_item{
+                margin-right: 10px;
+                padding: 7.5px;
+                border-radius: 50%;
+                background-color: #3F4048;
+                width: 18px;
+                height: 18px;
+                &:last-child{
+                    margin-right: 0;
+                    height: 13px;
+                    padding: 10.5px 7.5px;
+                }
+            }
+        }
+        .footer_title{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            color: #FFFFFF;
+            margin: 0 0 20px 0;
+        }
+        .footer_content {
+            display: flex;
+            flex-direction: column;
+
+            .footer_content_link {
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FFFFFF;
+                text-decoration: none;
+                margin-bottom: 10px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .footer-form {
+            display: flex;
+            background-color: #3F4048;
+            border-radius: 8px;
+            input{
+                background-color: transparent;
+                border: none;
+                padding: 12px;
+                color: #fff;
+                &:focus{
+                    outline: none;
+                }
+            }
+            button{
+                background-color: transparent;
+                border: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-right: 12px;
+            }
+        }
+    }
+}

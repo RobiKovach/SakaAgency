@@ -1,0 +1,69 @@
+@media screen and (max-width: 1024px) {
+    .wrapper{
+        padding: 0 40px;
+        .banner{
+            margin-bottom: 0;
+        }
+        .about{
+            padding: 0;
+        }
+    }
+    .services-item{
+        height: 380px;
+        justify-content: space-around;
+    }
+    .projects-content a{
+        width: 48%;
+        img{
+            width: 100%;
+        }
+    }
+    .customer-slider{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .wrapper{
+        max-width: 100%;
+        width: 100%;
+        .header{
+            flex-direction: column;
+            align-items: center;
+        }
+        .banner{
+            height: 450px;
+            .banner-content {
+                top: 50px;
+                right: 0;
+                .banner-title {
+                    font-size: 50px;
+                }
+            }
+        }
+        .services{
+            .services-item {
+                width: 25%;
+                img{
+                    margin-bottom: 15px;
+                }
+                .subtitle{
+                    margin-top: 0;
+                }
+                .description{
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        .founder{
+            .founder-content{
+                .founder-items-left{
+                    .founder-item{
+                        .top-left {
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
