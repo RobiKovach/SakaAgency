@@ -25,7 +25,7 @@
 @media screen and (max-width: 768px) {
     .wrapper{
         max-width: 100%;
-        width: 100%;
+        width: auto;
         .header{
             flex-direction: column;
             align-items: center;
@@ -54,16 +54,249 @@
                 }
             }
         }
-        .founder{
-            .founder-content{
-                .founder-items-left{
-                    .founder-item{
-                        .top-left {
+        .founder {
+            .founder-content {
+                .fouder-items-left {
+                    .founder-item {
+                        .top-left,
+                        .bottom-left{
+                            width: 50%;
+                        }
+                    }
+                }
+                .fouder-items-right{
+                    .founder-item {
+                        .top-right,
+                        .bottom-right {
                             width: 50%;
                         }
                     }
                 }
             }
         }
+        .customer{
+            .customer-slider{
+                width: 50%;
+            }
+        }
+        .footer{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .footer_items{
+                align-items: center;
+                margin-bottom: 30px;
+                .footer_description{
+                    text-align: center;
+                }
+                .footer_content{
+                    align-items: center;
+                }
+            }
+        }
     }
 }
+@media screen and (max-width: 425px) {
+    .header {
+        .menu {
+            flex-direction: column;
+            align-items: center;
+            li{
+                margin-bottom: 15px;
+                .menu-link{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .wrapper{
+        .banner {
+            height: 200px;
+            .banner-content {
+                top: 20px;
+                left: 20px;
+                .banner-title {
+                    font-size: 18px;
+                    line-height: 32px;
+                }
+                .banner-description{
+                    font-size: 13px;
+                    line-height: 18px;
+                    margin: 0 0 15px 0;
+                }
+                .header-button{
+                    padding: 8.5px 17px;
+                }
+            }
+        }
+        .about{
+            .title{
+                margin-bottom: 20px;
+            }
+            .about-items{
+                .about-item{
+                    width: 100%;
+                }
+            }
+        }
+        .services {
+            .services-item{
+                width: 100%;
+            }
+        }
+        .projects {
+            margin: 20px 0;
+            .project-heading{
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 30px;
+                .services-link{
+                    margin-top: 20px;
+                }
+            }
+        }
+        .founder{
+            margin-top: 20px;
+            .founder-content{
+                flex-wrap: wrap;
+            }
+        }
+        .customer{
+            margin: 20px 0;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .customer-text{
+                width: 100%;
+            }
+            .customer-slider{
+                width: 90%;
+            }
+        }
+    }
+    .title{
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .cta{
+        .tests{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .tests-left,
+            .tests-center,
+            .tests-right{
+                border: none;
+                margin-bottom: 15px;
+            }
+        }
+        .header-button{
+            width: 30%;
+        }
+    }
+}
+@media screen and (max-width: 375px) {
+    .wrapper {
+        .customer {
+            .customer-slider{
+                width: 80%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 320px) {
+    .wrapper {
+        .banner {
+            height: 130px;
+            .banner-content {
+                top: 10px;
+                left: 10px;
+                .banner-title{
+                    font-size: 16px;
+                    line-height: 20px;
+                    margin: 0 0 4px 0;
+                }
+                .banner-description {
+                    font-size: 12px;
+                    line-height: 15px;
+                    margin: 0 0 4px 0;
+                }
+                .header-button{
+                    padding: 7px 12px;
+                    font-size: 12px;
+                }
+            }
+        }
+        .about {
+            .about-items {
+                .about-item {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    img{
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+    .founder {
+        margin: 20px 0;
+        .founder-content {
+            .fouder-items-left {
+                .founder-item {
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    .top-left{
+                        border-top-left-radius: 100px;
+                        border-radius: 20px;
+                    }
+                    .bottom-left{
+                       border-top-left-radius: 100px;
+                       border-radius: 20px;
+                    }
+                }
+            }
+            .fouder-items-right {
+                .founder-item {
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+
+                    .top-right {
+                        border-top-left-radius: 100px;
+                        border-radius: 20px;
+                    }
+
+                    .bottom-right {
+                        border-top-left-radius: 100px;
+                        border-radius: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .services{
+        margin: 20px 0;
+    }
+    .swiper-slide {
+        .quotes {
+            margin-bottom: 10px;
+            img {
+                width: 15%;
+            }
+        }
+        .profil-text{
+            font-size: 12px;
+        }
+    }
+    .cta {
+        .header-button {
+            width: 40%;
+        }
+    }
+}
+
